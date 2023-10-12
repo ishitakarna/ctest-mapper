@@ -1,0 +1,61 @@
+  console.log
+    [CTEST] #### {"like":{"position":1,"name":"Like","icon":"sparkle-heart"}} ####
+
+      at log (app/javascript/__support__/reaction_images.js:17:13)
+          at Array.map (<anonymous>)
+
+  console.log
+    [CTEST] #### {"unicorn":{"position":2,"name":"Unicorn","icon":"multi-unicorn"}} ####
+
+      at log (app/javascript/__support__/reaction_images.js:17:13)
+          at Array.map (<anonymous>)
+
+  console.log
+    [CTEST] #### {"exploding_head":{"position":3,"name":"Exploding Head","icon":"exploding-head"}} ####
+
+      at log (app/javascript/__support__/reaction_images.js:17:13)
+          at Array.map (<anonymous>)
+
+  console.log
+    [CTEST] #### {"raised_hands":{"position":4,"name":"Raised Hands","icon":"raised-hands"}} ####
+
+      at log (app/javascript/__support__/reaction_images.js:17:13)
+          at Array.map (<anonymous>)
+
+  console.log
+    [CTEST] #### {"fire":{"position":5,"name":"Fire","icon":"fire"}} ####
+
+      at log (app/javascript/__support__/reaction_images.js:17:13)
+          at Array.map (<anonymous>)
+
+PASS app/javascript/articles/__tests__/Article.test.jsx
+  <Article /> component
+    ✓ should have no a11y violations for a standard article (492 ms)
+    ✓ should have no a11y violations for a featured article (313 ms)
+    ✓ should render a standard article (26 ms)
+    ✓ should render a featured article (17 ms)
+    ✓ should render a rich feed (20 ms)
+    ✓ should render a featured article for an organization (10 ms)
+    ✓ should render a featured article for a video post (10 ms)
+    ✓ should render with an organization (8 ms)
+    ✓ should render with a flare tag (9 ms)
+    ✓ should render with a snippet result (9 ms)
+    ✓ should render with reactions (15 ms)
+    ✓ should render with comments (14 ms)
+    ✓ should render second paragraph, but not third (12 ms)
+    ✓ should render the first part of a long paragraph (18 ms)
+    ✓ should render with an add comment button when there are no comments (13 ms)
+    ✓ should render as saved on reading list (11 ms)
+    ✓ should render as not saved on reading list (7 ms)
+    ✓ should render a video article (13 ms)
+    ✓ should render a podcast article (2 ms)
+    ✓ should render a podcast episode (10 ms)
+    ✓ should render a user article (9 ms)
+    ✓ should show bookmark button when article is saveable (default) (6 ms)
+    ✓ should hide bookmark button when article is not saveable (5 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       23 passed, 23 total
+Snapshots:   1 passed, 1 total
+Time:        3.325 s
+Ran all test suites matching /app\/javascript\/articles\/__tests__\/Article.test.jsx/i.
